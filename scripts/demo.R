@@ -1,3 +1,3 @@
 user_greet <- "Hello, "
-user_name <- "Developer, "
+user_name <- "Dev, "
 paste(user_greet, user_name)
