@@ -1,5 +1,33 @@
+# RStudio / IDE files
 .Rproj.user
 .Rhistory
 .RData
 .Ruserdata
 .positai
+*.Rproj
+
+# macOS System files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# Windows System files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Data, Logs, and Temp files
+*.log
+*.sqlite
+data/raw/
+output/
+!output/.gitkeep
+
+# Package management (for renv)
+renv/library/
+renv/python/
+renv/staging/
